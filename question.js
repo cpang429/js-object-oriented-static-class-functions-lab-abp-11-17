@@ -16,7 +16,7 @@ class Question {
   }
 
 static FindByID(content) {
-  return this.All().filter(function(parseInt(Question+1)) {
+  return this.All().filter(function(Question) {
     return Question.content === content;
   })
 }
