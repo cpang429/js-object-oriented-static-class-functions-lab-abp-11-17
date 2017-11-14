@@ -4,12 +4,12 @@ class Question {
 /*  constructor(ID) {
     this.ID = ID
     this.save()
-  }
+  } */
 
   save() {
     this.constructor._All.push(this)
   }
-
+/*
   Static All() {
     return this.All;
   }
