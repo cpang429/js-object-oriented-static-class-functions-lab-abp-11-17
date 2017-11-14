@@ -1,15 +1,15 @@
 'use strict';
 
 class Question {
-  constructor(ID) {
+/*  constructor(ID) {
     this.ID = ID
     this.save()
   }
-  
+
   save() {
     this.constructor._All.push(this)
   }
-  
+
   Static All() {
     return this.All;
   }
@@ -19,7 +19,5 @@ class Question {
       return user.ID === ID;
     })
   }
-
+*/
 }
-
-Question._All = []
