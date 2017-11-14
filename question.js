@@ -1,9 +1,7 @@
 'use strict';
 
 class Question {
-  static All() {
-    return.this._All;
-  }
+  
 /*  constructor(ID) {
     this.ID = ID
     this.save()
