@@ -16,12 +16,11 @@ class Question {
   }
 
 static FindByID(content) {
-  return this.All().filter(function(Question) {
+  return this.All().filter(function(parseInt(Question+1)) {
     return Question.content === content;
   })
 }
-  
+
 }
 
 Question._All = [];
-
