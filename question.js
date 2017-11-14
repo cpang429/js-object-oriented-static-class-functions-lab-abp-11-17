@@ -11,7 +11,7 @@ class Question {
   }
 
   //The static keyword defines the Class Function
-  static All() {
+/*  static All() {
     return this._All;
   }
 
