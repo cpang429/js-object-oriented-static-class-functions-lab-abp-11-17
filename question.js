@@ -14,6 +14,14 @@ class Question {
   static All() {
     return this._All;
   }
+
+static FindByID(content) {
+  return this.All().filter(function(Question) {
+    return Question.content === content;
+  })
+}
+  
 }
 
 Question._All = [];
+
