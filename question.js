@@ -15,11 +15,11 @@ class Question {
     return this._All;
   }
 
-static FindByID(content) {
+/*static FindByID(content) {
   return this.All().filter(function(Question) {
     return Question.content === content;
   })
-}
+}*/
 
 }
 
